@@ -1,0 +1,202 @@
+/* work sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* common styles */
+.header-container{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-banner-container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.banner-title{
+    font-size: 2.2em;
+}
+.banner-title, .banner-details{
+    text-align: center;
+    padding: 0 200px;
+
+}
+.btn-explore{
+    position: relative;
+    right: -450px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    margin-top: 50px;
+}
+.manu a{
+    text-decoration: none;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+.manu {
+    margin-top: 63px;
+}
+
+/* banner styles */
+.banner-container{
+    display: block;
+    justify-content: center;
+}
+
+.btn-explore{
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 80px;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: 50px;
+    
+
+}
+/* Team and quick feature styles */
+.team-quick-feature{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    margin: 20px 150px;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    }
+.team img{
+    gap: 20px;
+
+}
+.quick-feature-title{
+    margin-top: 300px;
+}
+.quick-feature-title, .quick-feature-detail{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.btn-explore{
+    position: relative;
+    left: 20px;
+}
+
+/* ......................................
+features and architect styles
+..................................... */
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    margin: 50px 150px;
+}
+.features{
+    margin-right: 10px;
+}
+.feature{
+    box-shadow: 1px 1px 5px;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+
+}
+
+.architect-image img{
+    width: 100%;
+}
+.experiences{
+    background-color: #FF900E;
+    color: white;
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 80px;
+
+}
+.experience{
+    font-size: 2em;
+}
+/* Some facts styles */
+
+.facts-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+}
+
+.fact{
+    border: 1px solid #FF900E;
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+}
+.fact img{
+    position: relative;
+    right: -100px;
+    top: 40px;
+}
+.point, .fact-field{
+    text-align: center;
+}
+.point{
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.fact-title, .description{
+    margin-left: 150px;
+}
+
+/* Sponsors styles */
+.sponsor-title, .detail{
+    text-align: center;
+}
+.sponsor-img{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.sponsor-img img{
+    margin-right: 100px;
+}
+
+
+/* Footer styles */
+.footer{
+    background-color: #FFF4E7;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Media quary Responsive  */
+
+@media only screen and (max-width: 576px) {
+    .navbar, .banner-title, .banner-details, .team-quick-feature, .team, .features-container, .some-facts-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding: 0;
+    }
+    .nav-banner-container{
+        margin: 0 0;
+        padding: 0;
+        
+    }
+    .facts-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+}
+
