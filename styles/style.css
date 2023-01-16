@@ -157,6 +157,30 @@ features and architect styles
     margin-left: 150px;
 }
 
+/* ....................
+ sold houses
+....................... */
+.sold-design{
+    background-color: #FFF4E7;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.sold-design-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    
+}
+.house-img img{
+    width: 40%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 50px;
+
+}
+
+
 /* Sponsors styles */
 .sponsor-title, .detail{
     text-align: center;
@@ -183,7 +207,7 @@ features and architect styles
 /* Media quary Responsive  */
 
 @media only screen and (max-width: 576px) {
-    .navbar, .banner-title, .banner-details, .team-quick-feature, .team, .features-container, .some-facts-container{
+    .navbar, .banner-title, .banner-details, .team-quick-feature, .team, .features-container, .some-facts-container, .sold-design-img{
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
         padding: 0;
